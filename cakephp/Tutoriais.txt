@@ -1,0 +1,26 @@
+https://book.cakephp.org/2/en/console-and-shells/schema-management-and-migrations.html
+https://book.cakephp.org/2/en/appendices/2-0-migration-guide.html#
+https://book.cakephp.org/2/en/appendices/2-0-migration-guide.html
+https://book.cakephp.org/3/pt/tutorials-and-examples/blog/blog.html
+https://book.cakephp.org/2/pt/tutorials-and-examples/blog/blog.html#baixando-o-cake
+
+
+Instalar o Wamp
+
+Configurar o Wamp
+
+Instalar o Cake
+
+Criar virtual Host para a aplicacao
+
+Modificar os url mod rewrite conforme documentacao do cake
+
+Configurar os salts da aplicacao
+
+Configurar database
+
+Configurar variaveis de ambiente do wamp e do cake
+
+Configurar Banco de dados
+
+Criar model abrindo cmd em app e digitando cake bake model (Adicionar Console do cake nas variaveis de ambiente)

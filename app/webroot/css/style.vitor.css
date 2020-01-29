@@ -1,0 +1,125 @@
+.post-title{
+	display:block;
+	color:#780;
+}
+
+.btn{
+	padding:8px;
+	line-height:40px;
+	border-radius:5px;
+	text-decoration: none;
+}
+
+.right{
+	float:right !important;
+	overflow:auto;
+}
+
+.btn-primary{
+	color: #fff;
+    background-color: #007bff;
+}
+.btn-primary:hover{
+	color:#abe4ff;
+}
+
+.icon-large{
+	width:36px !important;
+}
+.edit-icon{
+	background-image:url('../img/edit-icon.png');
+}
+
+.icon-png:hover{
+	filter: grayscale(0%);
+}
+
+.post{
+	width:80%;
+	overflow:auto;
+	background:#f4ffe2;
+	padding:20px;
+	margin:30px auto;
+	border-radius:10px;
+}
+
+.post>.right>div{
+	float:left;
+}
+
+.post>.username{
+	font-weight: bold;
+}
+
+.post>.modified{
+	float:right;
+}
+
+.post>.created{
+	float:left;
+}
+
+.post>.edit{
+	
+}
+.post>.delete{
+	
+}
+
+.post>.body{
+	padding:20px;
+	margin:25px 0px;
+	background: #fff;
+}
+
+.post>.avatar{
+
+}
+
+.topic{
+	padding:40px;
+	width:95%;
+	margin:30px auto;
+	background:rgba(0,50,0,0.1);
+	border-radius:10px;
+}
+
+.topic .title{
+	font-size:20px;
+}
+
+.topic .created{
+	margin-top:20px;
+	font-style: italic;
+}
+
+.topic .modified{
+	font-style: italic;
+}
+
+
+.topic .visible{
+	margin-top:10px;
+	font-weight: bold;
+}
+
+.topic .username{
+	font-weight: bold;
+	font-size:18px;
+	color:#0A0;
+}
+
+.topic>.right>div{
+	float:left;
+}
+
+.foot-label{
+	background: linear-gradient(to left, rgba(0,36,0,1) 0%,rgba(0,87,0,0.8) 20%, rgba(131,199,131,0) 33%,rgba(180,221,180,0) 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	height:40px;
+	padding:20px;
+	line-height: 40px;
+}
+
+#footer{
+	padding: 0 !important;
+}
