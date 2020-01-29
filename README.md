@@ -4,6 +4,7 @@
 ### Documentação do Samplemed Blog em CakePHP 2.x com migrations
 #### Autor: Vitor C.
 #### Data: 28/01/2020
+#### Resumo: Aplicação criada como teste e exemplo, utilizando cakePHP 2.x com Migrations e PHP5.x para simular uma aplicação de um blog.
 
 ## 1.1 DATABASE 
 ### Configurando as Migrations e populando o banco.
@@ -12,31 +13,25 @@ Para iniciar a criação do banco de dados, com o banco de dados já configurado
 
 
 #### Figura 1. Gerando Migração
-
-
-
-
-
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/cake_migration_generate.JPG)
 
 
 #### Figura 2. Migração executada
-
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/cake_migration_run.JPG)
 
 Após isso, o banco de dados já estará funcionando de acordo com a aplicação.
 
-Observação: O arquivo da migração da aplicação está localizado em : samplemedblog.com.br\app\Config\Migration\001_migrationsamplemedblog.php
+Observação: O arquivo da migração da aplicação após a geração está localizado em : samplemedblog.com.br\app\Config\Migration\001_migrationsamplemedblog.php
 
-Para adicionar valores aleatórios no banco de dados utilize o script seeder.php em app com o comando “php seeder.php”
-
-
+Para popular entidades com valores aleatórios no banco de dados utilize o script seeder.php em app com o comando “php seeder.php” em /app da seguinte forma:
 
 
-
+#### Figura 3. Populando o banco de dados com script 'seeder'
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/seeding_database.JPG)
 
 
 ## 1.2 Diagrama de Entidades do Banco
-
-
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/database_der.JPG)
 
 ## 2. A Aplicação
 ### Requisitos funcionais implementados no Samplemed Blog
@@ -59,17 +54,14 @@ Para adicionar valores aleatórios no banco de dados utilize o script seeder.php
 - Não conseguem publicar, editar ou excluir
 
 
-
-	- Funcionalidade para Teste: É possível registrar usuários com role “1” de administrador e “0” de regular.
-
+#### - Funcionalidade para Teste: É possível registrar usuários com role “1” de administrador e “0” de regular.
 
 
 ## 3. Classes Principais
 
 ### Users
 	Representa os usuários do sistema
-Atributos: id,username,full_name,password, role,  timestamps
-
+	Atributos: id,username,full_name,password, role,  timestamps
 
 ### Posts
 	Representa os comentários do tópico
@@ -81,7 +73,7 @@ Atributos: id,username,full_name,password, role,  timestamps
 
 
 
-## 4.Prints
+## 4.Prints - Visual da Aplicação
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 ### 1- Visitando o site sem usuário:
