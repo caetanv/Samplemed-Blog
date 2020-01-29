@@ -68,7 +68,7 @@ Após esta etapa já conseguiremos visualizar na aplicação os elementos gerado
 
 ## 4. Controllers
 
-As controllers estão definindo as ações principais de cada usuário, para exibir de forma correta na view. As principais ações são de visualizar, editar, deletar ou criar. Sendo semelhantes em seu objetivo mas com peculiaridades para cada diferente tipo de usuário.
+As controllers estão definindo as ações principais de cada usuário, para exibir de forma correta na view. As principais ações são de visualizar, editar, deletar ou criar. Sendo semelhantes em seu objetivo mas com peculiaridades para cada diferente tipo de usuário conforme os requisitos funcionais relacionados.
 
 
 ## 5. Prints - Visual da Aplicação
