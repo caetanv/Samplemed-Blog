@@ -1,17 +1,17 @@
 # Samplemed-Blog
-####Aplicação Blog em CakePHP 2.x com Migrations e Seeder
+#### Aplicação Blog em CakePHP 2.x com Migrations e Seeder
 
-###Documentação do Samplemed Blog em CakePHP 2.x com migrations
-####Autor: Vitor C.
-####Data: 28/01/2020
+### Documentação do Samplemed Blog em CakePHP 2.x com migrations
+#### Autor: Vitor C.
+#### Data: 28/01/2020
 
-##1.1 DATABASE 
-###Configurando as Migrations e populando o banco.
+## 1.1 DATABASE 
+### Configurando as Migrations e populando o banco.
 
 Para iniciar a criação do banco de dados, com o banco de dados já configurado em database.php, é possível utilizar o comando no prompt “cake migrations generate” para gerar os arquivos necessários ( a partir de app/config/migration ) e visualizar a modificação e depois utilizar o comando “cake migration run” para selecionar a migration a ser executada. 
 
 
-####Figura 1. Gerando Migração
+#### Figura 1. Gerando Migração
 
 
 
@@ -19,7 +19,7 @@ Para iniciar a criação do banco de dados, com o banco de dados já configurado
 
 
 
-####Figura 2. Migração executada
+#### Figura 2. Migração executada
 
 
 Após isso, o banco de dados já estará funcionando de acordo com a aplicação.
@@ -34,12 +34,12 @@ Para adicionar valores aleatórios no banco de dados utilize o script seeder.php
 
 
 
-##1.2 Diagrama de Entidades do Banco
+## 1.2 Diagrama de Entidades do Banco
 
 
 
-##2. A Aplicação
-###Requisitos funcionais implementados no Samplemed Blog
+## 2. A Aplicação
+### Requisitos funcionais implementados no Samplemed Blog
 
 1- Usuários: Administrador e Regular
 - Todos os usuários podem se registrar e alterar as configurações de seu usuário
@@ -64,47 +64,47 @@ Para adicionar valores aleatórios no banco de dados utilize o script seeder.php
 
 
 
-##3. Classes Principais
+## 3. Classes Principais
 
-###Users
+### Users
 	Representa os usuários do sistema
 Atributos: id,username,full_name,password, role,  timestamps
 
 
-###Posts
+### Posts
 	Representa os comentários do tópico
 	Atributos: id, topic_id, user_id, body, timestamps
 
-###Topics
+### Topics
 	Representa os itens de tópicos do blog
 	Atributos: id, topic_id, user_id, title, visible, timestamps
 
 
 
-##4.Prints
+## 4.Prints
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
-###1- Visitando o site sem usuário:
+### 1- Visitando o site sem usuário:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_guest_1.JPG
 
-###2- Registrando novo usuário:
+### 2- Registrando novo usuário:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Register_user_1.JPG
 
-###3- Logado como conta regular:
+### 3- Logado como conta regular:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_regular_3.JPG
 
-###4- Criando um post com conta regular:
+### 4- Criando um post com conta regular:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/regular_post_created.JPG
 
-###5- Visualizando posts de um tópico:
+### 5- Visualizando posts de um tópico:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/View_posts_1.JPG
 
-###6- Editando perfil do usuário:
+### 6- Editando perfil do usuário:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/edit_user.JPG
 
-###7- Criando post para um tópico:
+### 7- Criando post para um tópico:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/creating_post.JPG
 
-###8- Visualizando tópicos visiveis:
+### 8- Visualizando tópicos visiveis:
 ![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/View_posts_1.JPG
 
