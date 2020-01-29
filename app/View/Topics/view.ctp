@@ -35,12 +35,12 @@
 		$this->Form->postLink($this->HTML->image('delete-icon.png', ['title' => 'Delete', 'class'=>'icon-png']), array('controller' => 'posts', 'action' => 'delete', $post['id']), array('confirm' => 'Are you sure you want to delete this post?', 'escape'=>false)).
 
 
-		"</div></div>";
+		"</div>";
 
 
 		}
 		
-		echo "<div class='username'>".
+		echo "</div><div class='username'>".
 		$uname['User']['username'].
 		"</div>".
 
