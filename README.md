@@ -31,28 +31,28 @@ Para popular entidades com valores aleatórios no banco de dados utilize o scrip
 
 
 ## 1.2 Diagrama de Entidades do Banco
+#### Figura 4. O diagrama para o Model da aplicação
 ![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/database_der.JPG)
 
 ## 2. A Aplicação
 ### Requisitos funcionais implementados no Samplemed Blog
 
-1- Usuários: Administrador e Regular
+1 - Usuários: Administrador e Regular
 - Todos os usuários podem se registrar e alterar as configurações de seu usuário
 
-2- Administrador:
+2 - Administrador:
 - deve aprovar o tópico alterando o campo “visible” para true.
 - podem excluir e editar qualquer tópico, ou excluir posts
 - podem ver usuários e editar informações próprias ou de seu usuário
 
-3- Regulares:
+3 - Regulares:
 - não conseguem publicar tópicos diretamente, necessita aprovação do admin
 - podem publicar, excluir ou alterar seus posts
 - conseguem visualizar todos os posts visíveis
 
-4- Visitantes:
+4 - Visitantes:
 - Não conseguem ver todos os tópicos
 - Não conseguem publicar, editar ou excluir
-
 
 #### - Funcionalidade para Teste: É possível registrar usuários com role “1” de administrador e “0” de regular.
 
@@ -71,10 +71,11 @@ Para popular entidades com valores aleatórios no banco de dados utilize o scrip
 	Representa os itens de tópicos do blog
 	Atributos: id, topic_id, user_id, title, visible, timestamps
 
+## 4. Controllers
+	As controllers estão definindo as ações principais de cada usuário, para exibir de forma correta na view. As principais ações são de visualizar, editar, deletar ou criar. Sendo semelhantes em seu objetivo mas com peculiaridades para cada diferente tipo de usuário.
 
 
-## 4.Prints - Visual da Aplicação
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+## 5. Prints - Visual da Aplicação
 
 ### 1- Visitando o site sem usuário:
 ![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_guest_1.JPG)
