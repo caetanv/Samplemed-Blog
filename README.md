@@ -85,26 +85,26 @@ Atributos: id,username,full_name,password, role,  timestamps
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 ### 1- Visitando o site sem usuário:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_guest_1.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_guest_1.JPG)
 
 ### 2- Registrando novo usuário:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Register_user_1.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Register_user_1.JPG)
 
 ### 3- Logado como conta regular:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_regular_3.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/Login_as_regular_3.JPG)
 
 ### 4- Criando um post com conta regular:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/regular_post_created.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/regular_post_created.JPG)
 
 ### 5- Visualizando posts de um tópico:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/View_posts_1.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/View_posts_1.JPG)
 
 ### 6- Editando perfil do usuário:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/edit_user.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/edit_user.JPG)
 
 ### 7- Criando post para um tópico:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/creating_post.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/creating_post.JPG)
 
 ### 8- Visualizando tópicos visiveis:
-![alt text]https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/View_posts_1.JPG
+![alt text](https://github.com/vitormutt/Samplemed-Blog/blob/master/prints/View_posts_1.JPG)
 
