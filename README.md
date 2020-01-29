@@ -1,10 +1,6 @@
-# Samplemed-Blog
-#### Aplicação Blog em CakePHP 2.x com Migrations e Seeder
-
-### Documentação do Samplemed Blog em CakePHP 2.x com migrations
-#### Autor: Vitor C.
-#### Data: 28/01/2020
-#### Resumo: Aplicação criada como teste e exemplo, utilizando cakePHP 2.x com Migrations e PHP5.x para simular um blog.
+# Samplemed-Blog - Documentação
+#### Aplicação criada como teste e exemplo, utilizando cakePHP 2.x com Migrations, Seeder, Bootstrap e PHP5.x para simular um blog funcional.
+#### Autor: Vitor C. - Data 28/01/2020
 
 ## 1.1 DATABASE 
 ### Configurando as Migrations e populando o banco.
