@@ -17,25 +17,27 @@
 
 		echo "<div class='post'>".
 
-		"<div class='right'><div class='edit'>".
+		"<div class='right'>";
+		if(AuthComponent::user('id') == $post['user_id']){
+			echo "<div class='edit'>".
 
 
-		$this->HTML->image('edit-icon.png', ['title' => 'Edit', 'class'=>'icon-png', 'url' => ['controller' => 'posts', 'action' => 'edit/'.$post['id']]]).
+			$this->HTML->image('edit-icon.png', ['title' => 'Edit', 'class'=>'icon-png', 'url' => ['controller' => 'posts', 'action' => 'edit/'.$post['id']]]).
 
 
-		"</div>";
-
+			"</div>";
+		}
 		if(AuthComponent::user('id') == $post['user_id'] || AuthComponent::user('role') == 1){
-
+			
 		
 
-		echo "<div class='delete'>".
+			echo "<div class='delete'>".
 
 
-		$this->Form->postLink($this->HTML->image('delete-icon.png', ['title' => 'Delete', 'class'=>'icon-png']), array('controller' => 'posts', 'action' => 'delete', $post['id']), array('confirm' => 'Are you sure you want to delete this post?', 'escape'=>false)).
+			$this->Form->postLink($this->HTML->image('delete-icon.png', ['title' => 'Delete', 'class'=>'icon-png']), array('controller' => 'posts', 'action' => 'delete', $post['id']), array('confirm' => 'Are you sure you want to delete this post?', 'escape'=>false)).
 
 
-		"</div>";
+			"</div>";
 
 
 		}

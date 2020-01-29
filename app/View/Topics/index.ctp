@@ -33,7 +33,7 @@ foreach($topics as $topic) {
 
 				echo "<div class='right'>";
 
-					if(AuthComponent::user('id') == $topic['Topic']['user_id']){
+					if(AuthComponent::user('id') == $topic['Topic']['user_id'] || AuthComponent::user('role') == 1){
 
 						echo "<div class='edit'>".
 
